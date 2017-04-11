@@ -13,7 +13,7 @@ class article(models.Model):
     Categories = models.CharField(max_length=100)
     Summary = models.CharField(max_length=500)
     Source = models.CharField(max_length=100)
-    Source_url = models.CharField(max_length=100)
+    Source_url = models.CharField(max_length=200)
     Author = models.CharField(max_length=100)
 
     class Meta:
